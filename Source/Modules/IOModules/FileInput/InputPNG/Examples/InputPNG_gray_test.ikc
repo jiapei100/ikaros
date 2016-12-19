@@ -27,4 +27,5 @@
 		source="INTENSITY" x="0" y="0" h="4" w="4" />
 	</view>	
 
+    <module class = "Logger" name = "Logger" />
 </group>

@@ -32,5 +32,6 @@
             <object title = "R2D2" class="Button" module="MyConstant" parameter="data" select="5" x="2" y="2" />
 		</view>
 
+    <module class = "Logger" name = "Logger" />
 </group>
  

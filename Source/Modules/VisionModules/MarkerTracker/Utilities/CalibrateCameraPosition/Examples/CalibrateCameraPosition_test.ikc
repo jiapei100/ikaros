@@ -100,4 +100,5 @@
                 decimals = "1"
  			/>
         </view>      
+    <module class = "Logger" name = "Logger" />
 </group>
