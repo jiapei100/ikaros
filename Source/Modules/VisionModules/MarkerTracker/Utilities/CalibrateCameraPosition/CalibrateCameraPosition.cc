@@ -78,4 +78,4 @@ CalibrateCameraPosition::Tick()
 }
 
 
-static InitClass init("CalibrateCameraPosition", &CalibrateCameraPosition::Create, "Source/UserModules/CalibrateCameraPosition/");
+static InitClass init("CalibrateCameraPosition", &CalibrateCameraPosition::Create, "Source/Modules/VisionModules/MarkerTracker/Utilities/CalibrateCameraPosition/");
