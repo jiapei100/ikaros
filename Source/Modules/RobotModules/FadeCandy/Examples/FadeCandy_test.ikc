@@ -64,5 +64,6 @@
         <connection sourcemodule = "MOUTH_G" source = "OUTPUT" targetmodule = "FadeCandy" target = "MOUTH_BOTTOM_GREEN" />
         <connection sourcemodule = "MOUTH_B" source = "OUTPUT" targetmodule = "FadeCandy" target = "MOUTH_BOTTOM_BLUE" />
 
+    <module class = "Logger" name = "Logger" />
 </group>
  

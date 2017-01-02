@@ -18,4 +18,5 @@
         <object class="Image" type ="gray" module="IN" source="INTENSITY" x="0" y="0" h="2" w="2" />
     </view>	
 	
+    <module class = "Logger" name = "Logger" />
 </group>

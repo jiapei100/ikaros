@@ -3,7 +3,7 @@
 <group title="CalibrateCameraPosition Test">
 
     <module
-        class   = "InputVideoQT"
+        class   = "InputVideo"
         name	= "Camera"			
         size_x  = "640"
         size_y  = "480"
@@ -100,4 +100,5 @@
                 decimals = "1"
  			/>
         </view>      
+    <module class = "Logger" name = "Logger" />
 </group>

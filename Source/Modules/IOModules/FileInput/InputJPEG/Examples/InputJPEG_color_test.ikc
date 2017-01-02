@@ -24,4 +24,5 @@
 		<object class="Text" title="Description" text="This file demonstrates/the use of the module/InputJPEG" x="1" y="0" />
 	</view>	
 	
+    <module class = "Logger" name = "Logger" />
 </group>

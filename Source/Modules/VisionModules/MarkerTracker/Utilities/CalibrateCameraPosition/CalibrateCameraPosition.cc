@@ -34,7 +34,8 @@ CalibrateCameraPosition::Init()
     
     int sx = 4;
     int sy = 4;
-    marker_position = GetArray("marker_position", sx*sy); // Set in the ikc file.
+    int s = sx * sy;
+    marker_position = GetArray("marker_position", s); // Set in the ikc file.
     
     input = GetInputMatrix("INPUT");
     size_x = GetInputSizeX("INPUT");
@@ -78,4 +79,4 @@ CalibrateCameraPosition::Tick()
 }
 
 
-static InitClass init("CalibrateCameraPosition", &CalibrateCameraPosition::Create, "Source/UserModules/CalibrateCameraPosition/");
+static InitClass init("CalibrateCameraPosition", &CalibrateCameraPosition::Create, "Source/Modules/VisionModules/MarkerTracker/Utilities/CalibrateCameraPosition/");

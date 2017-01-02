@@ -29,5 +29,6 @@
 		<object class="Table" module="Epuck" source="PROXIMITY" x="0" y="2" w="4" />
 	</view>
 
+    <module class = "Logger" name = "Logger" />
 </group>
 

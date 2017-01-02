@@ -25,5 +25,6 @@
         <object class="Slider" title="Duty" module="LightInput" parameter="tickduty" x="4" y="0" h="2" max="190" />
     </view>
     
+    <module class = "Logger" name = "Logger" />
 </group>
 
