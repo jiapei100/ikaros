@@ -290,7 +290,8 @@ MarkerTracker::Init()
 {
 	Bind(frame_id_constant, "frame_id");
 	
-	calibration = GetArray("calibration", 13);
+    int s = 13;
+	calibration = GetArray("calibration", s);
 	max_markers = GetIntValue("max_markers");
 	sort_markers = GetBoolValue("sort_makers");
 	use_history = GetBoolValue("use_history");
